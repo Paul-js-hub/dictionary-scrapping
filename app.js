@@ -1,11 +1,15 @@
-const app = require("express")();
-const cors = require("cors");
+import  express  from "express";
+import cors from "cors"
 
+const app = express();
 app.use(cors());
 
-app.get("/", (req, res)=>{
-    res.send("Hello world");
+app.post("/", (req, res)=>{
+    // fetch the text of the web page
+    // clean the text of the page
+    // count the words occurrences and sort them
+    res.send("Hello world again!!!!!");
 })
 
 
-module.exports = app;
+export default app;
