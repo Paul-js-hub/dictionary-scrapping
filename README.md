@@ -33,3 +33,13 @@ Go to the root folder and run the following:
 # Running the project
 
    $ npm start
+
+Your app should now be running on `http://localhost:8080`
+
+# Testing the project
+
+Using API testing tool of your choice and with POST method enter `http://localhost:8080`
+
+Under the body section using the url as the key place a url string as the value and click send as shown below:   
+
+![Url Post Testing!](/images/url-post-test.png "Url Post Testing Image")

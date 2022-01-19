@@ -9,6 +9,9 @@ app.use(cors());
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded(({ extended: false })))
 
+app.get("/", (req, res)=>{
+    res.send("Welcome to node application");
+});
 
 app.post("/", async(req, res)=>{
     // fetch the text of the web page
